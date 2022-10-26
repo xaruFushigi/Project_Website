@@ -1,3 +1,53 @@
+import 'animate.css';
+
 html,body{
     background-color: rgba(179, 20, 20, 0.886);
 }
+
+.buffer {
+    height: 17px;
+}
+
+:root {
+    --animate-duration: 4s;
+  }
+
+  .helpers:hover {
+    animation: animate__zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+  }
+
+  .card {
+    border-radius: 29px;
+  }
+
+  .background {
+    height: 300px;
+    width: 100%;
+  }
+
+
+
+  .pikachu1 {
+    float: right;
+    width: 300px;
+    height: 300px;
+  }
+
+  .firstBlock {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/738/893/98/pokemon-pikachu-black-white-pikachu-drawing-wallpaper-preview.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-position: right;
+    background-attachment: ;
+  }
+
+  .equal {
+    animation: animate__zoomIn;
+  }
+
+  .equal:hover {
+    animation: animate__zoomIn;
+    animation-duration: 4s;
+  }
+
